@@ -1,14 +1,15 @@
-function ExpenseItems()
-{
+import "./ExpenseItem.css";
+
+function ExpenseItem() {
   return (
-    <>
-      <div>15 August 2023
-        <div>Book
-        <div>$10
-        <div>Delhi</div></div></div>
+    <div>
+      <div>15 August 2023</div>
+      <div>
+        <h2>Book</h2>
+        <div>$10</div>
       </div>
-     
-    </>
-  )
+    </div>
+  );
 }
-export default ExpenseItems;
+
+export default ExpenseItem;
