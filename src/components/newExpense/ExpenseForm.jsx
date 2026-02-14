@@ -22,7 +22,7 @@ const ExpenseForm = () => {
     }
   })
   }
-  const dateChangeHandler = (e) => {
+  const dateChangeHandler = (event) => {
    setUpdates((prevState)=>{
     return{
         ...prevState,enteredDate:event.target.value
